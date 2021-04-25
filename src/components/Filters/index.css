@@ -1,1 +1,24 @@
 /* Write you CSS here */
+.filter-container {
+  display: flex;
+  padding: 50px;
+}
+.options-selector-container {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.options-heading {
+  font-size: 15px;
+  color: #475569;
+  font-family: Roboto;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.option {
+  font-weight: 600;
+}
+.select {
+  width: 150px;
+  padding: 10px;
+}

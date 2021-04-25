@@ -1,1 +1,66 @@
 /* Write you CSS here */
+.questions-container {
+  padding: 50px;
+}
+.bubbles-container {
+  display: flex;
+}
+.bubble {
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.HTML {
+  color: #0284c7;
+  background-color: #0284c716;
+}
+.CSS {
+  color: #9333ea;
+  background-color: #9333ea16;
+}
+.JAVASCRIPT {
+  color: #db2777;
+  background-color: #db277716;
+}
+.EASY {
+  color: #16a34a;
+  background-color: #16a34a16;
+}
+.MEDIUM {
+  color: #d97706;
+  background-color: #d9770616;
+}
+.HARD {
+  color: #dc2626;
+  background-color: #dc262616;
+}
+.question {
+  color: #180d5b;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.hide-show {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px #cbd2d9 solid;
+  color: #9aa5b1;
+  font-size: 15px;
+  background-color: white;
+}
+.q-card {
+  background-color: #0284c716;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  shadow: 0px 0px 1px 2px, black;
+}
+.arrow {
+  margin-left: 5px;
+}
+.answer {
+  color: #323f4b;
+  font-size: 15px;
+  font-weight: 400;
+}
